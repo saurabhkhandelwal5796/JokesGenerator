@@ -1,0 +1,40 @@
+body{
+    background-color: violet;
+}
+
+
+.container {
+    margin-top: 200px;
+    margin-left: 500px;
+    background-color: white;
+    width:500px;
+    height:300px;
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.btn {
+   align-items: center;
+   margin-top: 40px;
+   background-color: yellow;
+   border-radius: 3px;
+   height:40px;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   width:200px;
+   margin-left:180px
+
+}
+
+.btn:hover {
+    transform: scale(1,1.1);
+}
+h3 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}

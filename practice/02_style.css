@@ -1,0 +1,40 @@
+/* 
+ <div id = 'jokeDiv'>
+        <h1>Enjoy the Jokes </h1>
+        <p id = 'jokePara'>joke is loading</p>
+        <button id = 'btn'>Next Joke</button>
+    </div>
+ */
+
+ body {
+     background-color: aquamarine;
+ }
+
+ #jokeDiv {
+     background-color: white;
+     border-radius: 30px;
+     width:500px;
+     height:200px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin-top: 300px;
+     margin-left:300px
+ }
+
+ h1 {
+     font-family:sans-serif;
+ }
+
+ #btn {
+     width:100px;
+     height:30px;
+     background-color: yellow;
+     border-radius: 30px;
+     margin-left : 200px
+
+ }
+
+ #btn:hover {
+     transform: scale(1.1,1.1);
+ }
